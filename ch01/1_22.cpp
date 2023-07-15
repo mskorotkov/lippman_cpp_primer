@@ -20,7 +20,9 @@ int main() {
         cerr << "No data!" << endl;;
         return -1;
     }
+    
     cout << total;
+    
     return 0;
 }
 
