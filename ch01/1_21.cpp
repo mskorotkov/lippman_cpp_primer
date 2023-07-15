@@ -4,14 +4,9 @@
 using namespace std;
 
 int main() {
-    Sales_item book1;
-    cin >> book1;
-
-    Sales_item book2;
-    cin >> book2;
-
+    Sales_item book1, book2;
+    cin >> book1 >> book2;
     cout << book1 + book2;
-
     return 0;
 }
 
