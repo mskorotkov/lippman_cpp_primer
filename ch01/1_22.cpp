@@ -17,7 +17,7 @@ int main() {
             }
         }
     } else {
-        cerr << "No data!" << endl;;
+        cerr << "No data!" << endl;
         return -1;
     }
     
