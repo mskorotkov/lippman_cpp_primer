@@ -29,7 +29,6 @@ int main() {
         const int *p1 = &i2;  // OK
     }
 
-
     // f)
     {
         const int &const r2;
