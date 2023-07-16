@@ -1,2 +1,5 @@
 A pointer is an object whose value is the adress of another object.
 A reference is not an object. It is an alias of another object.
+
+Указатель это объект со значением адреса другого объекта
+Ссылка - это не объект, а только другое имя уже существующего объекта.
