@@ -1,5 +1,16 @@
 A pointer is an object whose value is the adress of another object.
 A reference is not an object. It is an alias of another object.
 
-Указатель - это объект, который содержит адрес другого объекта.
-Ссылка - это не объект, а только другое имя уже существующего объекта.
+Other differences:
+
+Pointer: It is not necessary to initialize it with a value during declaration.
+Reference: It is necessary to initialize it with a value during declaration.
+
+Pointer: It can be assigned a NULL value.
+Reference: It cannot be NULL
+
+Pointer: It must be dereferenced with a * to access the variable’s value.
+Reference: It does not need to be dereferenced and can be used simply by name.
+
+Pointer: After declaration, it can be re-assigned to any other variable of the same type.
+Reference: It cannot be re-assigned to any other variable after its initialization.
